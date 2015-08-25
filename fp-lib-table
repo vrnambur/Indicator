@@ -1,0 +1,4 @@
+(fp_lib_table
+  (lib (name LM2903-8-SOIC)(type KiCad)(uri "$(KIPRJMOD)\\LM2903-8-SOIC.pretty")(options "")(descr ""))
+  (lib (name SOT1216)(type KiCad)(uri "$(KIPRJMOD)\\BC847QAPN.pretty")(options "")(descr ""))
+)

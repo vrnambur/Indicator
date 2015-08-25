@@ -1,0 +1,467 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<export version="D">
+  <design>
+    <source>C:\Users\VRaghuram\Documents\KiCad\Indicator\Indicator.sch</source>
+    <date>14-Aug-15 11:34:57 PM</date>
+    <tool>Eeschema (2015-08-01 BZR 6032, Git 6a6a55f)-product</tool>
+    <sheet number="1" name="/" tstamps="/">
+      <title_block>
+        <title>Battery Indicator</title>
+        <company/>
+        <rev>1</rev>
+        <date>2015-08-14</date>
+        <source>Indicator.sch</source>
+        <comment number="1" value=""/>
+        <comment number="2" value=""/>
+        <comment number="3" value=""/>
+        <comment number="4" value=""/>
+      </title_block>
+    </sheet>
+  </design>
+  <components>
+    <comp ref="CON1">
+      <value>BARREL_JACK</value>
+      <footprint>Connect:BARREL_JACK</footprint>
+      <libsource lib="conn" part="BARREL_JACK"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>55CEA78A</tstamp>
+    </comp>
+    <comp ref="D1">
+      <value>5V</value>
+      <footprint>Diodes_SMD:SMA_Standard</footprint>
+      <libsource lib="device" part="ZENER"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>55CEA9B0</tstamp>
+    </comp>
+    <comp ref="R2">
+      <value>1k</value>
+      <footprint>Resistors_SMD:R_0603</footprint>
+      <libsource lib="device" part="R"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>55CEAAB5</tstamp>
+    </comp>
+    <comp ref="R1">
+      <value>2</value>
+      <footprint>Resistors_SMD:R_0603</footprint>
+      <libsource lib="device" part="R"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>55CEAB68</tstamp>
+    </comp>
+    <comp ref="R3">
+      <value>100k</value>
+      <footprint>Resistors_SMD:R_0603</footprint>
+      <libsource lib="device" part="R"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>55CEAFFD</tstamp>
+    </comp>
+    <comp ref="R4">
+      <value>1k</value>
+      <footprint>Resistors_SMD:R_0603</footprint>
+      <libsource lib="device" part="R"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>55CEB094</tstamp>
+    </comp>
+    <comp ref="D2">
+      <value>1V</value>
+      <footprint>Diodes_SMD:SMA_Standard</footprint>
+      <libsource lib="device" part="ZENER"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>55CEB137</tstamp>
+    </comp>
+    <comp ref="R5">
+      <value>90</value>
+      <footprint>Resistors_SMD:R_0603</footprint>
+      <libsource lib="device" part="R"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>55CEB311</tstamp>
+    </comp>
+    <comp ref="D3">
+      <value>LED</value>
+      <footprint>LEDs:LED-1206</footprint>
+      <libsource lib="device" part="LED"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>55CEB3A1</tstamp>
+    </comp>
+    <comp ref="Q2">
+      <value>2SA1016</value>
+      <footprint>Housings_TO-92:TO-92_Horizontal1_Inline_Narrow_Oval</footprint>
+      <libsource lib="transistors" part="2SA1016"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>55CEB45C</tstamp>
+    </comp>
+    <comp ref="Q1">
+      <value>2SC1815</value>
+      <footprint>Housings_TO-92:TO-92_Horizontal1_Inline_Narrow_Oval</footprint>
+      <libsource lib="transistors" part="2SC1815"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>55CEB4A5</tstamp>
+    </comp>
+    <comp ref="D4">
+      <value>7V</value>
+      <footprint>Diodes_SMD:SMA_Standard</footprint>
+      <libsource lib="device" part="ZENER"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>55CEDFCE</tstamp>
+    </comp>
+    <comp ref="R7">
+      <value>1k</value>
+      <footprint>Resistors_SMD:R_0603</footprint>
+      <libsource lib="device" part="R"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>55CEDFD4</tstamp>
+    </comp>
+    <comp ref="R6">
+      <value>2</value>
+      <footprint>Resistors_SMD:R_0603</footprint>
+      <libsource lib="device" part="R"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>55CEDFDA</tstamp>
+    </comp>
+    <comp ref="R8">
+      <value>100k</value>
+      <footprint>Resistors_SMD:R_0603</footprint>
+      <libsource lib="device" part="R"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>55CEDFE9</tstamp>
+    </comp>
+    <comp ref="R9">
+      <value>1k</value>
+      <footprint>Resistors_SMD:R_0603</footprint>
+      <libsource lib="device" part="R"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>55CEDFEF</tstamp>
+    </comp>
+    <comp ref="D5">
+      <value>3.3V</value>
+      <footprint>Diodes_SMD:SMA_Standard</footprint>
+      <libsource lib="device" part="ZENER"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>55CEDFF5</tstamp>
+    </comp>
+    <comp ref="R10">
+      <value>200</value>
+      <footprint>Resistors_SMD:R_0603</footprint>
+      <libsource lib="device" part="R"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>55CEE001</tstamp>
+    </comp>
+    <comp ref="D6">
+      <value>LED</value>
+      <footprint>LEDs:LED-1206</footprint>
+      <libsource lib="device" part="LED"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>55CEE007</tstamp>
+    </comp>
+    <comp ref="Q4">
+      <value>2SA1016</value>
+      <footprint>Housings_TO-92:TO-92_Horizontal1_Inline_Narrow_Oval</footprint>
+      <libsource lib="transistors" part="2SA1016"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>55CEE00D</tstamp>
+    </comp>
+    <comp ref="Q3">
+      <value>2SC1815</value>
+      <footprint>Housings_TO-92:TO-92_Horizontal1_Inline_Narrow_Oval</footprint>
+      <libsource lib="transistors" part="2SC1815"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>55CEE013</tstamp>
+    </comp>
+    <comp ref="R11">
+      <value>100k</value>
+      <footprint>Resistors_SMD:R_0603</footprint>
+      <libsource lib="device" part="R"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>55CEE374</tstamp>
+    </comp>
+    <comp ref="R12">
+      <value>1k</value>
+      <footprint>Resistors_SMD:R_0603</footprint>
+      <libsource lib="device" part="R"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>55CEE37A</tstamp>
+    </comp>
+    <comp ref="D7">
+      <value>6V</value>
+      <footprint>Diodes_SMD:SMA_Standard</footprint>
+      <libsource lib="device" part="ZENER"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>55CEE380</tstamp>
+    </comp>
+    <comp ref="R13">
+      <value>450</value>
+      <footprint>Resistors_SMD:R_0603</footprint>
+      <libsource lib="device" part="R"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>55CEE389</tstamp>
+    </comp>
+    <comp ref="D8">
+      <value>LED</value>
+      <footprint>LEDs:LED-1206</footprint>
+      <libsource lib="device" part="LED"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>55CEE38F</tstamp>
+    </comp>
+    <comp ref="Q5">
+      <value>2SC1815</value>
+      <footprint>Housings_TO-92:TO-92_Horizontal1_Inline_Narrow_Oval</footprint>
+      <libsource lib="transistors" part="2SC1815"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>55CEE39B</tstamp>
+    </comp>
+    <comp ref="U1">
+      <value>LM2903</value>
+      <footprint>SMD_Packages:DIP-8_SMD</footprint>
+      <libsource lib="linear" part="LM2903"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>55CEF6A4</tstamp>
+    </comp>
+  </components>
+  <libparts>
+    <libpart lib="device" part="LED">
+      <footprints>
+        <fp>LED-3MM</fp>
+        <fp>LED-5MM</fp>
+        <fp>LED-10MM</fp>
+        <fp>LED-0603</fp>
+        <fp>LED-0805</fp>
+        <fp>LED-1206</fp>
+        <fp>LEDV</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">D</field>
+        <field name="Value">LED</field>
+      </fields>
+      <pins>
+        <pin num="1" name="K" type="passive"/>
+        <pin num="2" name="A" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="device" part="R">
+      <description>Resistor</description>
+      <footprints>
+        <fp>R_*</fp>
+        <fp>Resistor_*</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">R</field>
+        <field name="Value">R</field>
+      </fields>
+      <pins>
+        <pin num="1" name="~" type="passive"/>
+        <pin num="2" name="~" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="transistors" part="2SA1016">
+      <description>2SA1016, 50V Vce, 0.15A Ic, Low Noise Audio PNP Transistor, TO-92</description>
+      <docs>http://www.datasheetcatalog.org/datasheet/toshiba/905.pdf</docs>
+      <footprints>
+        <fp>TO-92*</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">Q</field>
+        <field name="Value">2SA1016</field>
+        <field name="Footprint">TO-92</field>
+      </fields>
+      <pins>
+        <pin num="1" name="E" type="passive"/>
+        <pin num="2" name="C" type="passive"/>
+        <pin num="3" name="B" type="input"/>
+      </pins>
+    </libpart>
+    <libpart lib="device" part="ZENER">
+      <description>Diode zener</description>
+      <footprints>
+        <fp>D?</fp>
+        <fp>SO*</fp>
+        <fp>SM*</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">D</field>
+        <field name="Value">ZENER</field>
+      </fields>
+      <pins>
+        <pin num="1" name="K" type="passive"/>
+        <pin num="2" name="A" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="transistors" part="2SC1815">
+      <description>2SC1815, 50V Vce, 0.15A Ic, Low Noise Audio NPN Transistor, TO-92</description>
+      <footprints>
+        <fp>TO-92*</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">Q</field>
+        <field name="Value">2SC1815</field>
+        <field name="Footprint">TO-92</field>
+      </fields>
+      <pins>
+        <pin num="1" name="E" type="passive"/>
+        <pin num="2" name="C" type="passive"/>
+        <pin num="3" name="B" type="input"/>
+      </pins>
+    </libpart>
+    <libpart lib="conn" part="BARREL_JACK">
+      <description>DC Barrel Jack</description>
+      <fields>
+        <field name="Reference">CON</field>
+        <field name="Value">BARREL_JACK</field>
+      </fields>
+      <pins>
+        <pin num="1" name="~" type="passive"/>
+        <pin num="2" name="~" type="passive"/>
+        <pin num="3" name="~" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="linear" part="LM2903">
+      <aliases>
+        <alias>LM293</alias>
+        <alias>LM393</alias>
+        <alias>LM193</alias>
+      </aliases>
+      <description>Dual Voltage Comparator</description>
+      <docs>ns/lm193.pdf</docs>
+      <fields>
+        <field name="Reference">U</field>
+        <field name="Value">LM2903</field>
+      </fields>
+      <pins>
+        <pin num="1" name="~" type="openCol"/>
+        <pin num="2" name="_" type="input"/>
+        <pin num="3" name="+" type="input"/>
+        <pin num="4" name="V-" type="power_in"/>
+        <pin num="5" name="+" type="input"/>
+        <pin num="6" name="_" type="input"/>
+        <pin num="7" name="~" type="openCol"/>
+        <pin num="8" name="V+" type="power_in"/>
+      </pins>
+    </libpart>
+  </libparts>
+  <libraries>
+    <library logical="device">
+      <uri>C:\Program Files\KiCad\share\kicad\library\device.lib</uri>
+    </library>
+    <library logical="transistors">
+      <uri>C:\Program Files\KiCad\share\kicad\library\transistors.lib</uri>
+    </library>
+    <library logical="conn">
+      <uri>C:\Program Files\KiCad\share\kicad\library\conn.lib</uri>
+    </library>
+    <library logical="linear">
+      <uri>C:\Program Files\KiCad\share\kicad\library\linear.lib</uri>
+    </library>
+  </libraries>
+  <nets>
+    <net code="1" name="Net-(D8-Pad1)">
+      <node ref="D8" pin="1"/>
+      <node ref="Q5" pin="2"/>
+    </net>
+    <net code="2" name="Net-(D6-Pad2)">
+      <node ref="R10" pin="2"/>
+      <node ref="D6" pin="2"/>
+    </net>
+    <net code="3" name="Net-(D7-Pad2)">
+      <node ref="D7" pin="2"/>
+      <node ref="R12" pin="2"/>
+      <node ref="R11" pin="1"/>
+    </net>
+    <net code="4" name="Net-(Q5-Pad3)">
+      <node ref="R12" pin="1"/>
+      <node ref="Q5" pin="3"/>
+    </net>
+    <net code="5" name="Net-(Q3-Pad1)">
+      <node ref="Q3" pin="1"/>
+      <node ref="Q4" pin="1"/>
+    </net>
+    <net code="6" name="Net-(D8-Pad2)">
+      <node ref="D8" pin="2"/>
+      <node ref="R13" pin="2"/>
+    </net>
+    <net code="7" name="Net-(Q2-Pad3)">
+      <node ref="Q2" pin="3"/>
+      <node ref="U1" pin="1"/>
+    </net>
+    <net code="8" name="Net-(D3-Pad1)">
+      <node ref="D3" pin="1"/>
+      <node ref="Q1" pin="2"/>
+    </net>
+    <net code="9" name="Net-(Q1-Pad1)">
+      <node ref="Q1" pin="1"/>
+      <node ref="Q2" pin="1"/>
+    </net>
+    <net code="10" name="Net-(D3-Pad2)">
+      <node ref="D3" pin="2"/>
+      <node ref="R5" pin="2"/>
+    </net>
+    <net code="11" name="Net-(D5-Pad2)">
+      <node ref="R8" pin="1"/>
+      <node ref="R9" pin="2"/>
+      <node ref="D5" pin="2"/>
+    </net>
+    <net code="12" name="Net-(Q3-Pad3)">
+      <node ref="R9" pin="1"/>
+      <node ref="Q3" pin="3"/>
+    </net>
+    <net code="13" name="Net-(D6-Pad1)">
+      <node ref="D6" pin="1"/>
+      <node ref="Q3" pin="2"/>
+    </net>
+    <net code="14" name="GND">
+      <node ref="R7" pin="2"/>
+      <node ref="R11" pin="2"/>
+      <node ref="Q2" pin="2"/>
+      <node ref="Q4" pin="2"/>
+      <node ref="Q5" pin="1"/>
+      <node ref="R8" pin="2"/>
+      <node ref="R3" pin="2"/>
+      <node ref="R2" pin="2"/>
+      <node ref="CON1" pin="3"/>
+      <node ref="CON1" pin="2"/>
+      <node ref="U1" pin="4"/>
+    </net>
+    <net code="15" name="Net-(D4-Pad2)">
+      <node ref="U1" pin="5"/>
+      <node ref="D4" pin="2"/>
+      <node ref="R6" pin="1"/>
+    </net>
+    <net code="16" name="Net-(R6-Pad2)">
+      <node ref="R6" pin="2"/>
+      <node ref="U1" pin="6"/>
+      <node ref="R7" pin="1"/>
+    </net>
+    <net code="17" name="Net-(Q4-Pad3)">
+      <node ref="Q4" pin="3"/>
+      <node ref="U1" pin="7"/>
+    </net>
+    <net code="18" name="Net-(Q1-Pad3)">
+      <node ref="R4" pin="1"/>
+      <node ref="Q1" pin="3"/>
+    </net>
+    <net code="19" name="Net-(CON1-Pad1)">
+      <node ref="D1" pin="1"/>
+      <node ref="R10" pin="1"/>
+      <node ref="D5" pin="1"/>
+      <node ref="CON1" pin="1"/>
+      <node ref="D4" pin="1"/>
+      <node ref="D7" pin="1"/>
+      <node ref="R13" pin="1"/>
+      <node ref="U1" pin="8"/>
+      <node ref="D2" pin="1"/>
+      <node ref="R5" pin="1"/>
+    </net>
+    <net code="20" name="Net-(D1-Pad2)">
+      <node ref="D1" pin="2"/>
+      <node ref="R1" pin="1"/>
+      <node ref="U1" pin="3"/>
+    </net>
+    <net code="21" name="Net-(R1-Pad2)">
+      <node ref="R2" pin="1"/>
+      <node ref="R1" pin="2"/>
+      <node ref="U1" pin="2"/>
+    </net>
+    <net code="22" name="Net-(D2-Pad2)">
+      <node ref="D2" pin="2"/>
+      <node ref="R4" pin="2"/>
+      <node ref="R3" pin="1"/>
+    </net>
+  </nets>
+</export>
